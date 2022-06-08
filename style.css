@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 30px 80px 0 rgba(0, 0, 0, 0.2), 
+    0 30px 80px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    
+}
+.left-side{
+float: left;
+width: 40%;
+text-align: center;
+margin: auto;
+
+}
+.hero img{
+    float: right;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px
+}
+.title{
+        font-size: 40px;
+    
+}
+.sub-title {
+    color: #aaaaaa;
+    margin-top: 10px;
+}
+.button {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid #eeeeee;
+    border-radius: 25px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #eeeeee;
+}
+.our-work {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+.card {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 20px;
+}
+.footer{
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+}
+.footer p{
+    padding-bottom: 20px;
+}
+.footer .title{
+    padding-bottom: 20px;
+}
+
